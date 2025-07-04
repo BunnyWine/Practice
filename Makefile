@@ -1,7 +1,7 @@
 # Компилятор
 CXX = g++
 # Флаги компиляции: стандарт C++17, предупреждения, подключение include/
-CXXFLAGS = -Wall -Wextra -pedantic -std=c++17 -Iinclude
+CXXFLAGS = -Wall -Wextra -pedantic -std=c++17 -Iinclude -g
 
 # Пути к исходникам и сборке
 SRC_DIR = src
